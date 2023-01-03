@@ -1,4 +1,4 @@
-package practices.practiceErol01.team21Practices;
+package practices.team21Practices;
 
 public class Practice6 {
     //1-https://rahulshettyacademy.com/AutomationPractice/ adresine gidin

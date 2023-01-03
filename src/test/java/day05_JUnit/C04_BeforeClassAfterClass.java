@@ -30,14 +30,14 @@ public class C04_BeforeClassAfterClass {
         System.out.println("Ilk Test");
     }
 
-    @Test
-    public void test02(){
-        System.out.println("Ikinci Test");
-    }
+        @Test
+        public void test02(){
+            System.out.println("Ikinci Test");
+        }
 
-    @Test
-    @Ignore //Çalıştırmak istemediğimiz testler için kullanırız
-    public void test03(){
-        System.out.println("Ikinci Test");
+        @Test
+        @Ignore //Çalıştırmak istemediğimiz testler için kullanırız
+        public void test03(){
+            System.out.println("Ikinci Test");
     }
 }

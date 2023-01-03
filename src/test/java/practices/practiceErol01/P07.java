@@ -1,4 +1,4 @@
-package practice01;
+package practices.practiceErol01;
 
 
 

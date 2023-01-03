@@ -1,4 +1,4 @@
-package practices.practiceErol01.team21Practices;
+package practices.team21Practices;
 
 import org.junit.Assert;
 import org.junit.Before;

@@ -1,6 +1,5 @@
-package practice01;
+package practices.practiceErol01;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;

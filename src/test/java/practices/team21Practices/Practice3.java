@@ -1,4 +1,4 @@
-package practices.practiceErol01.team21Practices;
+package practices.team21Practices;
 
 import org.checkerframework.checker.units.qual.K;
 import org.junit.Assert;

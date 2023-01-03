@@ -1,4 +1,4 @@
-package practices.practiceErol01.team21Practices;
+package practices.team21Practices;
 
 public class Practice5 {
     //https://the-internet.herokuapp.com/dropdown adresine gidin.

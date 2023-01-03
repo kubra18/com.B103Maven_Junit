@@ -1,4 +1,4 @@
-package practices.practiceErol01.team21Practices;
+package practices.team21Practices;
 
 public class Practice7 {
     //2. 'http://automationexercise.com' URL'sine gidin
