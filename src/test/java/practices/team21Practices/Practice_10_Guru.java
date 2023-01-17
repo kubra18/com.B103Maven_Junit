@@ -12,7 +12,8 @@ public class Practice_10_Guru extends TestBase {
     public void test01(){
         //       url'ye git: http://demo.guru99.com/popup.php
         driver.get(" http://demo.guru99.com/popup.php");
-        driver.findElement(By.xpath("//*[@class='action-wrapper'][3]")).click();
+        driver.switchTo().frame(0);
+        driver.findElement(By.id("save")).click();
 
 
     }
