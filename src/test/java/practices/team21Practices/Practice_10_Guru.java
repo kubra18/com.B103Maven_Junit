@@ -9,10 +9,15 @@ import utilities.TestBase;
 public class Practice_10_Guru extends TestBase {
     ///*
     @Test
-    public void test01(){
+    public void test01() throws InterruptedException {
         //       url'ye git: http://demo.guru99.com/popup.php
         driver.get(" http://demo.guru99.com/popup.php");
-        driver.switchTo().frame(0);
+
+        WebElement iframe = driver.findElement(By.id("gdpr-consent-notice"));
+        driver.switchTo().frame(iframe);
+        Thread.sleep(3000);
+        driver.findElement(By.xpath("//*[text()='Accept All']")).click();
+        driver.switchTo().defaultContent();
         driver.findElement(By.id("save")).click();
 
 

@@ -1,0 +1,5 @@
+2023-01-20 21:33:32,933 FATAL d.C02_Log4J [main] Fatal Log!
+2023-01-20 21:33:32,934 ERROR d.C02_Log4J [main] Error Log!
+2023-01-20 21:33:32,934 WARN d.C02_Log4J [main] Warn Log!
+2023-01-20 21:33:32,934 DEBUG d.C02_Log4J [main] Debug Log!
+2023-01-20 21:33:32,934 INFO d.C02_Log4J [main] Info Log!
